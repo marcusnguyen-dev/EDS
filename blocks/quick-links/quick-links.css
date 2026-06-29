@@ -28,10 +28,6 @@
   outline-offset: -2px;
 }
 
-.quick-links-card:hover .quick-links-card-title {
-  text-decoration: underline;
-}
-
 .quick-links-card-icon {
   display: block;
   height: 36px;
@@ -53,6 +49,10 @@
   font-weight: 600;
   line-height: 1.35;
   overflow-wrap: break-word;
+}
+
+.quick-links-card:hover .quick-links-card-title {
+  text-decoration: underline;
 }
 
 .quick-links-card-description {
